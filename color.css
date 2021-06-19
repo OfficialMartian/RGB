@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+
+}
+body{
+    letter-spacing: 1px;
+    background: #101010;
+    text-transform: uppercase;
+}
+#question{
+    font-weight: 700;
+}
+#message{
+    margin: auto;
+    font-size: 17px;
+    font-weight: 600;
+}
+h1{
+    background-color: rgb(51, 122, 183);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 45px;
+}.right{
+    margin: auto 0;
+}
+button{
+    font-size: 17px;
+    font-weight: 600;
+    padding: 5px;
+    background: none;
+    outline: none;
+    border: none;
+    transition: all 0.3s
+}
+nav{
+    margin-bottom: 11.34px;
+}
+button:hover{
+    background-color: rgb(51, 122, 183);
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+.square{
+    width: 200px;
+    background-color: pink;
+    height: 200px;
+    border-radius: 30px;
+    margin: 1.66% 1.66%;
+    transition: background 0.5s;
+}
+.selected{
+    background-color:  rgb(51, 122, 183);
+    color: white;
+}
